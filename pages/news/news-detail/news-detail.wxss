@@ -416,7 +416,7 @@
 
 .detail {
   white-space: pre-line;
-  text-indent: 63rpx;
+  /* text-indent: 63rpx; */
   color: #666;
   margin: 0 32rpx;
   font-size: 35rpx;

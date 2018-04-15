@@ -7,6 +7,8 @@
       <view class="horizon"></view>
     </view>
     <block wx:for="{{games}}" wx:for-item="thisgame" wx:key="key">
+           <image style='position:absolute;float:left;left:74px;'src='../../../images/common/timg.gif'></image> 
+           <image style='position:absolute;float:left;right:78px;transform: rotateY(180deg); 'src='../../../images/common/timg.gif'></image> 
       <template is="matchStatus" data="{{...thisgame}}" />
     </block>
   </view>
